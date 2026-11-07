@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/*
+    <a href="https://storyset.com/technology">Technology illustrations by Storyset</a>
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    color: #ededed;
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 40px 60px;
+    z-index: 100;
+}
+
+.logo span{
+    color: #FF6A00;
+}
+
+.modex{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/progrrama.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.modex-inicio{
+    position: absolute;
+    width: 90%;
+    height: 8%;
+    top: 92%;  
+    background-color: rgb(228, 209, 194);
+}
+
+.imagem1{
+    display: flex;      
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.imagem1 img{
+    width: 3.5%;
+}
+
+.imagem1 h2{
+    color:black;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.imagem1 h3{
+    position: relative;
+    color:black;
+    font-size: 15px;
+    top: 3vh;
+    right: 70px;
+}
+
+.imagem2{
+    position: absolute; 
+    display: flex;
+    left: 40%;
+    top: 10px;
+}
+
+.imagem2 img{
+    width: 11%;
+}
+
+.imagem2 h2{
+    position: absolute;
+    color:black;
+    font-size: 20px;
+    bottom: 2.5vh;
+    left: 55px;
+}
+
+.imagem2 h3{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    bottom: 0.5vh;
+    left: 55px;
+}
+
+.imagem3{
+    position: absolute; 
+    display: flex;
+    left: 70%;
+    top: 11px;
+}
+
+.imagem3 img{
+    width: 11%;
+}
+
+.imagem3 h2{
+    position: absolute;
+    color:black;
+    font-size: 20px;
+    bottom: 2.5vh;
+    left: 70px;
+}
+
+.imagem3 h3{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    bottom: 0.5vh;
+    left: 70px;
+}
+
+.modex-f{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 49vw;
+    bottom: 58vh;
+}   
+
+.modex-f h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 150px;
+}
+
+.modex-f h3{
+    font-size: 70px;
+    font-weight: 700;
+    color: #000;
+}
+
+.modex-f h3 span{
+    color: #FF6A00;
+}
+
+.linha{
+    width: 50%;
+    border: 1px solid #807a76;
+    margin-top: 20px;  
+}
+
+.modex-f p{
+    width: 40%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.btn-box{
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    border: 1px solid #FF6A00;  
+    color: #FF6A00;
+    background-color: transparent;
+    font-family: "Fira Code", monospace;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63vw;
+    bottom: 34vh;
+}
+
+.btn-box:hover{
+    background-color: #FF6A00;
+    color: #fff;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(255, 106, 0, 0.4);
+}
+
+.slider{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    transition:.8s ease;
+}
+
+.page{
+    width:100vw;
+    height:100vh;
+    flex-shrink:0;
+    position:relative;
+}
+
+.modex-footer{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/hacked.png');
+    background-size: cover;
+    background-position: center;        
+    background-repeat: no-repeat;
+}
+
+.modex-footer-inicio{
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    top: 92%;  
+    background-color: rgb(1, 0, 0);
+}
+
+.modex-footer .modex-footer-inicio h4{
+    position: absolute;
+    color: #ff6a00;
+    display: flex;
+    margin-left: 80%;
+    padding: 20px 30px;
+    font-family: "Fira Code", monospace;
+
+}
+
+.modex-footer .modex-footer-inicio p{
+    position: absolute;
+    color: #ff6a00;
+    padding: 25px 60px;
+    font-size: 15px;
+    font-family: "Fira Code", monospace;
+}
+
+.modex-footer .modex-footer-inicio p span{
+    color: #333;
+}
+
+.security-panel{
+    position: absolute;
+    width: 420px;
+    padding: 25px 30px;
+    background: rgba(5, 5, 5, 0.88);
+    border-radius: 8px;
+    font-family: "Fira Code", monospace;
+    border: 2px solid;
+    border: 1px solid rgba(255, 106, 0, 0.35);
+    box-shadow: 0 0 25px rgba(255, 106, 0, 0.08);
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.panel-title {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ff6a00 50%, #333 50%) 1;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.panel-title h3{
+    margin: 0 0 15px;
+    color: #FF6A00;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.status-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 14px 0;
+    color: #e8e8e8;
+    font-size: 14px;
+}
+
+.status-line p {
+    margin: 0;
+}
+
+.status-line p span {
+    color: #FF6A00;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.ok {
+    color: #9da52d;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ok span {
+    color: #555;
+}
+
+.cursor {
+    color: #FF6A00;
+    margin-right: 16vh;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+.security-level {
+    position: absolute;
+    width: 420px;
+    padding: 35px 30px;
+    background: rgba(5, 5, 5, 0.88);
+    border: 1px solid rgba(255, 106, 0, 0.35);
+    border-radius: 8px;
+    font-family: "Fira Code", monospace;
+    box-shadow: 0 0 25px rgba(255, 106, 0, 0.08);
+    margin-left: 40px;
+    margin-top: 28%;
+}
+
+.panel-level {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ff6a00 50%, #333 50%) 1;
+    margin-bottom: 31px;
+    padding-bottom: 27px;
+}
+
+.panel-level h3 {
+    margin: 0;
+    color: #FF6A00;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.previcion-level {
+    margin: 15px 0;
+}
+
+.level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.level p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.level p span {
+    color: #FF6A00;
+    margin-right: 7px;
+    font-weight: bold;
+}
+/*
+.number {
+    color: #00ff66;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(0, 255, 102, 0.5);
+}*/
+
+.number {
+    width: 200px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(
+        90deg,
+        #FF6A00 70%,
+        #222 70%
+    );
+
+    border-radius: 4px;
+
+    color: white;
+}
+
+.previcion-level:nth-of-type(2) .number {
+    background: linear-gradient(
+        90deg,
+        #FF6A00 70%,
+        #222 70%
+    );
+}
+
+.previcion-level:nth-of-type(3) .number {
+    background: linear-gradient(
+        90deg,
+        #FF6A00 84%,
+        #222 84%
+    );
+}
+
+.previcion-level:nth-of-type(4) .number {
+    background: linear-gradient(
+        90deg,
+        #FF6A00 65%,
+        #222 65%
+    );
+}
+
+.previcion-level:nth-of-type(5) .number {
+    background: linear-gradient(
+        90deg,
+        #FF6A00 92%,
+        #222 92%
+    );
+}
+
+.login-panel {
+    position: absolute;
+    width: 450px;
+    min-height: 450px;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    background: rgba(5, 5, 5, 0.92);
+    border: 1px solid #FF6A00;
+    border-radius: 8px;
+    box-shadow:
+        0 0 20px rgba(255, 106, 0, 0.25);
+    font-family: "Fira Code", monospace;
+    z-index: 10;
+}
+
+.login-header {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: rgba(255, 106, 0, 0.08);
+    border-bottom: 1px solid #333;
+    color: #FF6A00;
+    font-size: 13px;
+}
+
+.status {
+    color: #8cff00;
+    font-size: 12px;
+}
+
+.login-content {
+    padding: 35px;
+}
+
+.login-content h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.login-message {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 50px;
+    line-height: 2px;
+}
+
+.login-message span{
+    color: #FF6A00;
+    margin-right: 7px;
+    font-weight: bold;
+}
+
+.login-message b{
+    color: #8cff00;
+    font-size: 12px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    color: #FF6A00;
+    font-size: 12px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.input-group input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    background: #0b0b0b;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 0 12px;
+    color: #fff;
+    font-family: "Fira Code", monospace;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #FF6A00;
+    box-shadow: 0 0 10px rgba(255, 106, 0, 0.25);
+}
+
+#access-btn {
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid #FF6A00;
+    border-radius: 4px;
+    color: #FF6A00;
+    font-family: "Fira Code", monospace;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#access-btn:hover {
+    background: #FF6A00;
+    color: #000;
+    box-shadow: 0 0 20px rgba(255, 106, 0, 0.4);
+}
+
+#login-status {
+    margin-top: 20px;
+    min-height: 20px;
+    color: #FF6A00;
+    font-size: 12px;
+}
+
+.btn-back {
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid #FF6A00;
+    border-radius: 4px;
+    color: #FF6A00;
+    font-family: "Fira Code", monospace;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    background: #FF6A00;
+    color: #000;
+    box-shadow: 0 0 20px rgba(255, 106, 0, 0.4);
+}
